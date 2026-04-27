@@ -35,6 +35,9 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <title>IHD Solutions - Ingeniería y Gestión de Operaciones Industriales</title>
 </head>
 <body>
@@ -61,7 +64,11 @@
 <!-- NAV -->
 <header role="banner">
     <div class="nav-inner">
-        <a href="#inicio" class="logo" aria-label="IHD Solutions - Inicio">IHD Solutions<span>.</span></a>
+        <a href="#inicio" class="logo" aria-label="IHD Solutions - Inicio"><img src="/assets/images/Logo.webp" alt="" srcset=""></a>
+        <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-label="Abrir menú de navegación">
+        <label for="nav-toggle" class="hamburger" aria-hidden="true">
+            <span></span>
+        </label>
         <nav role="navigation" aria-label="Navegación principal">
             <a href="#sobre-nosotros">Sobre Nosotros</a>
             <a href="#servicios">Servicios</a>
@@ -78,7 +85,7 @@
         <div class="hero-grid">
             <div class="hero-content">
                 <span class="label fade-up">Ingeniería · Digitalización · Gestión</span>
-                <h1 class="fade-up delay-1">La <em>digitalización</em> que transforma tu operación</h1>
+                <h1 class="fade-up delay-1"><em>INGENIERÍA, INNOVACIÓN Y DIGITALIZACIÓN</em> PARA UNA INDUSTRIA MÁS EFICIENTE.</h1>
                 <p class="fade-up delay-2">
                     En IHD Solutions combinamos ingeniería de campo, gestión de órdenes de trabajo y
                     control de activos en una sola plataforma. Llevamos la eficiencia operativa
@@ -98,7 +105,7 @@
         <div class="quick-links" role="list">
             <a href="#sobre-nosotros" class="quick-card" role="listitem">
                 <div class="icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="2" role="img" aria-label="Icono de personas">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37aa34" stroke-width="2" role="img" aria-label="Icono de personas">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
                     </svg>
                 </div>
@@ -108,7 +115,7 @@
             </a>
             <a href="#servicios" class="quick-card" role="listitem">
                 <div class="icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="2" role="img" aria-label="Icono de gráficos">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37aa34" stroke-width="2" role="img" aria-label="Icono de gráficos">
                         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
                     </svg>
                 </div>
@@ -118,7 +125,7 @@
             </a>
             <a href="#demo" class="quick-card" role="listitem">
                 <div class="icon" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="2" role="img" aria-label="Icono de play">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37aa34" stroke-width="2" role="img" aria-label="Icono de play">
                         <polygon points="5 3 19 12 5 21 5 3"/>
                     </svg>
                 </div>
@@ -142,19 +149,28 @@
         <div class="about-grid">
             <article class="about-story">
                 <p>
-                    IHD Solutions nació en [año] con la convicción de que la industria mexicana merecía
-                    soluciones tecnológicas de clase mundial, diseñadas desde adentro por ingenieros
-                    con experiencia en campo. Desde nuestros inicios en [ciudad], hemos acompañado a
-                    empresas de manufactura, energía y servicios en su camino hacia la digitalización.
+                    En IHD combinamos la ingeniería, la gestión de proyectos y la digitalización para fortalecer a las organizaciones
+                    industriales. Nuestro propósito es optimizar recursos, anticipar riesgos y elevar el rendimiento
+                    de cada operación con una visión holística.
                 </p>
                 <p>
-                    A lo largo de estos años hemos consolidado un equipo multidisciplinario que entiende
-                    tanto el lenguaje de la operación como el de la tecnología. Eso nos permite entregar
-                    soluciones que realmente funcionan donde más importa: el piso de planta.
+                    “Convertimos los desafíos industriales en oportunidades de evolución.”
                 </p>
                 <p>
-                    Hoy, con más de [X] proyectos completados y presencia en [N] estados, seguimos
-                    creciendo con el mismo compromiso que nos dio origen.
+                    <b>Mentalidad IHD: </b>  Innovar con propósito.
+                </p>
+                <p>
+                    En IHD acompañamos a las empresas a
+                    superar cualquier reto operativo,
+                    financiero o tecnológico, alineando sus
+                    procesos con la estrategia de negocio.
+                    Creemos que la transformación digital
+                    solo es efectiva cuando está conectada
+                    con las personas y los objetivos reales
+                    de la organización.
+                </p>
+                <p>
+                    “La verdadera fortaleza de una empresa está en su capacidad de reinventarse.”
                 </p>
             </article>
             <figure class="about-image">
@@ -165,34 +181,39 @@
 
         <!-- Misión, Visión, Valores -->
         <div class="mvv-grid">
+            <div class="mision-header">
+                <h2>
+                    Comprometidos con el
+                    crecimiento sostenible de
+                    nuestros clientes.
+                </h2>
+            </div>
             <div class="mvv-card">
                 <span class="mvv-tag">Misión</span>
                 <h3>Nuestra Misión</h3>
                 <p>
-                    Potenciar la competitividad de nuestros clientes mediante soluciones de ingeniería
-                    y digitalización que optimizan sus operaciones, reducen costos y maximizan la
-                    vida útil de sus activos.
+                    Impulsar la evolución de las
+                    empresas mediante
+                    soluciones de ingeniería,
+                    gestión y digitalización,
+                    adaptadas a su contexto y
+                    orientadas a resultados de
+                    clase mundial.
                 </p>
             </div>
             <div class="mvv-card">
                 <span class="mvv-tag">Visión</span>
                 <h3>Nuestra Visión</h3>
                 <p>
-                    Ser la empresa de referencia en México y Latinoamérica en gestión digital de
-                    operaciones industriales, reconocidos por la calidad de nuestras soluciones y
-                    el impacto medible que generamos.
+                    Ser el aliado estratégico
+                    líder en transformación
+                    industrial y digital,
+                    reconocido por generar
+                    operaciones eficientes,
+                    sostenibles y
+                    tecnológicamente
+                    avanzadas.
                 </p>
-            </div>
-            <div class="mvv-card">
-                <span class="mvv-tag">Valores</span>
-                <h3>Nuestros Valores</h3>
-                <ul class="valores-list">
-                    <li>Integridad en cada proyecto</li>
-                    <li>Innovación continua</li>
-                    <li>Orientación a resultados</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Compromiso con el cliente</li>
-                </ul>
             </div>
         </div>
     </div>
@@ -204,154 +225,214 @@
     <div class="section-inner">
         <div class="services-header">
             <span class="label">Lo que hacemos</span>
-            <h2>Nuestros Servicios</h2>
-            <p>
-                Tres líneas de servicio complementarias que cubren todo el ciclo de vida
-                de tus operaciones industriales.
-            </p>
+            <h2>Soluciones que impulsan tu competitividad.</h2>
         </div>
 
-        <!-- 1. Ingeniería y Proyectos (compact) -->
-        <article class="service-minor">
-            <div class="service-minor-icon" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="2" role="img" aria-label="Icono de ingeniería">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                </svg>
-            </div>
-            <div>
+        <!--Servicios -->
+        <div class="servicios-grid">
+            <div class="servicios-card">
+                <i class="fa-solid fa-users-gear"></i>
                 <h3>Ingeniería y Proyectos</h3>
                 <p>
-                    Ofrecemos servicios de ingeniería multidisciplinaria para el diseño, ejecución y
-                    supervisión de proyectos industriales. Desde la conceptualización hasta la puesta en
-                    marcha, acompañamos cada etapa con rigor técnico y enfoque en resultados.
+                    Supervisión, diseño e implementación
+                    de proyectos industriales.
                 </p>
                 <ul>
-                    <li>Diseño de procesos</li>
-                    <li>Ingeniería de detalle</li>
-                    <li>Gestión de proyectos (PMO)</li>
-                    <li>Supervisión y arranque</li>
-                    <li>Capacitación técnica</li>
+                    <li>Ingenierías civiles, eléctricas, electrónicas, mecánicas, etc.</li>
+                    <li>Supervisión técnica en campo y control de contratistas.</li>
+                    <li>Desarrollo de proyectos desde planeación hasta entrega final.</li>
                 </ul>
             </div>
-        </article>
-
-        <!-- 2. Gestión de OT (featured) -->
-        <article class="service-featured">
-            <div class="service-featured-content">
-                <span class="label">Servicio destacado</span>
-                <h3>Gestión de Órdenes de Trabajo</h3>
+            <div class="mvv-card">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Gestión de OT</h3>
                 <p>
-                    Nuestra plataforma de Gestión de OT digitaliza y centraliza todo el ciclo de vida
-                    de las órdenes de trabajo de mantenimiento: desde la solicitud hasta el cierre,
-                    con trazabilidad completa y reportes en tiempo real para la toma de decisiones.
+                    Digitalizamos, administramos y
+                    protegemos la operación industrial.
                 </p>
-
-                <div class="stat-row">
-                    <div class="stat">
-                        <strong>40%</strong>
-                        <span>Reducción de tiempos muertos</span>
-                    </div>
-                    <div class="stat">
-                        <strong>3×</strong>
-                        <span>Mayor velocidad de respuesta</span>
-                    </div>
-                    <div class="stat">
-                        <strong>98%</strong>
-                        <span>Trazabilidad de OT</span>
-                    </div>
-                </div>
-
-                <ul class="feature-list">
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Creación, asignación y seguimiento de OT en tiempo real
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Integración con sistemas ERP y CMMS existentes
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        App móvil para técnicos en campo sin necesidad de papel
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Tableros KPI con indicadores de mantenimiento (MTTR, MTBF)
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Alertas automáticas y escalamiento por prioridad
-                    </li>
+                <ul>
+                    <li>Digitalización de procesos y tableros de control.</li>
+                    <li>Ciberseguridad industrial y protección de infraestructura OT.</li>
+                    <li>Administración de información operativa y gestión documental.</li>
                 </ul>
-
-                <a href="#demo" class="btn btn-primary">Ver demo en vivo →</a>
             </div>
-            <figure class="service-featured-image">
-                <img src="/assets/images/Tercero.jpg" alt="Interfaz del sistema de gestión de órdenes de trabajo" loading="lazy" decoding="async">
-                <figcaption class="sr-only">Dashboard de gestión de OT</figcaption>
-            </figure>
-        </article>
-
-        <!-- 3. Gestión de Activos (featured, reverse) -->
-        <article class="service-featured reverse">
-            <div class="service-featured-content">
-                <span class="label">Servicio destacado</span>
+            <div class="mvv-card">
+                <i class="fa-solid fa-person-chalkboard"></i>
                 <h3>Gestión de Activos</h3>
                 <p>
-                    Controla el ciclo de vida completo de tus activos industriales: registro, mantenimiento
-                    preventivo, historial de intervenciones, depreciación y análisis predictivo. Maximiza
-                    el retorno de inversión de cada equipo en planta.
+                    Maximizamos la vida útil y
+                    rentabilidad de los activos
+                    industriales.
                 </p>
-
-                <div class="stat-row">
-                    <div class="stat">
-                        <strong>25%</strong>
-                        <span>Aumento en vida útil de activos</span>
-                    </div>
-                    <div class="stat">
-                        <strong>60%</strong>
-                        <span>Menos fallos no planificados</span>
-                    </div>
-                    <div class="stat">
-                        <strong>100%</strong>
-                        <span>Visibilidad de inventario</span>
-                    </div>
-                </div>
-
-                <ul class="feature-list">
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Registro digital completo con código QR / RFID por activo
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Planes de mantenimiento preventivo y predictivo automatizados
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Análisis de criticidad y árbol de fallos (RCM / FMEA)
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Control de refacciones y costos de mantenimiento por activo
-                    </li>
-                    <li>
-                        <span class="check" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
-                        Reportes de OEE, disponibilidad y confiabilidad
-                    </li>
+                <ul>
+                    <li>Priorización de riesgos en equipos y maquinaria.</li>
+                    <li>Automatización de mantenimiento y políticas de inventarios.</li>
+                    <li>Gestión del mantenimiento predictivo, preventivo y correctivo.</li>
                 </ul>
-
-                <a href="#demo" class="btn btn-primary">Ver demo en vivo →</a>
             </div>
-            <figure class="service-featured-image">
-                <img src="/assets/images/Cuarto.jpg" alt="Sistema de gestión de activos con análisis predictivo" loading="lazy" decoding="async">
-                <figcaption class="sr-only">Dashboard de gestión de activos</figcaption>
-            </figure>
-        </article>
+        </div>
 
     </div>
 </section>
 
+<!-- ══════════════════ ¿POR QUÉ IHD? ══════════════════ -->
+<section id="por-que-ihd" role="region" aria-label="Por qué trabajar con IHD">
+    <div class="section-inner porq-inner">
+
+        <!-- Columna izquierda: título + bloque azul con imagen -->
+        <div class="porq-left">
+            <div class="porq-heading-block">
+                <span class="label">Nuestra propuesta</span>
+                <h2>¿Por qué trabajar con IHD?</h2>
+            </div>
+            <div class="porq-image-block" aria-hidden="true">
+                <img src="/assets/images/Quinto.jpg"
+                     alt="Profesional de IHD Solutions trabajando en laptop"
+                     loading="lazy" decoding="async">
+            </div>
+        </div>
+
+        <!-- Columna derecha: descripción + razones -->
+        <div class="porq-right">
+            <p class="porq-intro">
+                Ofrecemos soluciones que integran ingeniería, innovación y visión holística,
+                garantizando la correcta supervisión, el ahorro y la eficiencia de todos los
+                recursos en cada proyecto.
+            </p>
+
+            <ol class="porq-list" role="list">
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M9 9h6M9 12h6M9 15h4"/>
+                            <path d="M16 3v4M8 3v4"/>
+                        </svg>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Visión integral de procesos y personas</h3>
+                        <p>Analizamos cada operación desde una perspectiva humana y técnica para garantizar resultados sostenibles.</p>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path d="M12 6v6l4 2"/>
+                            <path d="M6.5 17.5l1-1"/>
+                        </svg>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Ahorro y eficiencia de recursos</h3>
+                        <p>Optimizamos tiempos, costos y materiales sin sacrificar calidad ni seguridad operativa.</p>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a10 10 0 1 0 10 10"/>
+                            <path d="M12 8v4l3 3"/>
+                            <path d="M18 2l4 4-4 4"/>
+                            <path d="M22 6h-6"/>
+                        </svg>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Innovación y digitalización</h3>
+                        <p>Implementamos gemelos digitales, monitoreo en tiempo real y herramientas de última generación.</p>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="7"/>
+                            <path d="m21 21-4.35-4.35"/>
+                            <path d="M11 8v3l2 2"/>
+                        </svg>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Ingeniería y supervisión precisa</h3>
+                        <p>Cada proyecto cuenta con supervisión técnica especializada para asegurar cumplimiento y calidad.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+
+<!-- ══════════════════ BENEFICIOS DE TRABAJAR CON IHD ══════════════════ -->
+<section id="por-que-ihd" role="region" aria-label="Por qué trabajar con IHD">
+    <div class="section-inner porq-inner">
+
+        <!-- Columna izquierda: título + bloque azul con imagen -->
+        <div class="porq-left">
+            <p class="porq-intro">
+                Donde la ingeniería se encuentra con la innovación,
+                las empresas alcanzan su máximo potencial.
+            </p>
+
+            <ol class="porq-list" role="list">
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <i class="fa-solid fa-file-shield"></i>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Reducción de costos y riesgos operativos.</h3>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <i class="fa-brands fa-envira"></i>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Mayor eficiencia energética y de recursos.</h3>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Control total y reportes en tiempo real.</h3>
+                    </div>
+                </li>
+
+                <li class="porq-item">
+                    <div class="porq-icon" aria-hidden="true">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="porq-item-text">
+                        <h3>Procesos digitales y decisiones basadas en datos.</h3>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Columna derecha: descripción + razones -->
+        <div class="porq-right">
+            <div class="porq-heading-block">
+                <h2>Beneficios para tu empresa</h2>
+            </div>
+            <div class="porq-image-block" aria-hidden="true">
+                <img src="/assets/images/Quinto.jpg"
+                     alt="Profesional de IHD Solutions trabajando en laptop"
+                     loading="lazy" decoding="async">
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
 
 <!-- ══════════════════ DEMO ══════════════════ -->
 <section id="demo" role="region" aria-label="Sección de demostración">
@@ -380,7 +461,7 @@
 <!-- FOOTER -->
 <footer role="contentinfo">
     <div class="footer-inner">
-        <a href="#inicio" class="logo" aria-label="IHD Solutions - Volver al inicio">IHD Solutions<span>.</span></a>
+        <a href="#inicio" class="logo" aria-label="IHD Solutions - Volver al inicio"><img src="/assets/images/Logo.webp" alt="" srcset=""></a>
         <div class="footer-info">
             <p>&copy; 2026 IHD Solutions. Todos los derechos reservados.</p>
             <p>León, Guanajuato · México</p>
