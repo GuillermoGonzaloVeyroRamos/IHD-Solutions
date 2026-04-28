@@ -1082,6 +1082,7 @@ footer .logo-footer img {
 .footer-right{
   width: 50%;
   display: flex;
+  align-items: center;
 }
 
 .footer-right .footer-info {
