@@ -135,6 +135,7 @@ header {
 }
 
 img {
+    width: auto;
     max-width: 100%;
     height: auto;
     display: block;
@@ -148,6 +149,7 @@ img {
 
   .logo img {
     width: auto;
+    height: auto;
     max-width: 90px;
   }
 
@@ -956,6 +958,7 @@ section {
   }
 
   .porq-image-block img {
+    width: auto;
     height: 220px;
   }
 
@@ -965,6 +968,7 @@ section {
 
   .logo img{
     max-width: 25%;
+    height: auto;
   }
 }
 
@@ -1094,6 +1098,7 @@ footer {
 footer .logo-footer img {
   margin: auto;
   width: 70%;
+  height: auto;
 }
 
 .footer-right{
