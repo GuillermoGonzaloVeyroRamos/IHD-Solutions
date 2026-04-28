@@ -354,6 +354,7 @@ section {
   background: var(--color-surface-2);
   overflow: hidden;
   position: relative;
+  min-height: 420px;
 }
 
 .hero-image::before {
@@ -364,7 +365,8 @@ section {
 
 .hero-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
@@ -574,12 +576,27 @@ section {
   gap: var(--spacing-md);
 }
 
-.servicios-grid i {
+.service-icon {
   display: flex;
-  font-size: 45px;
   justify-content: center;
   margin-bottom: 20px;
   color: var(--color-accent);
+}
+
+.service-icon svg,
+.porq-icon svg,
+.footer-info svg {
+  width: 45px;
+  height: 45px;
+  stroke: currentColor;
+  fill: none;
+}
+
+.footer-info svg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 .servicios-card {
