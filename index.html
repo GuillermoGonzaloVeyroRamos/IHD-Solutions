@@ -34,7 +34,9 @@
     <link rel="preload" href="/assets/images/Primer.webp" as="image">
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+
+    <link rel="preload" href="https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2" as="font" type="font/woff2" crossorigin>
 
     <title>IHD Solutions - Ingeniería y Gestión de Operaciones Industriales</title>
 </head>
@@ -62,7 +64,7 @@
 <!-- NAV -->
 <header role="banner">
     <div class="nav-inner">
-        <a href="#inicio" class="logo" aria-label="IHD Solutions - Inicio"><img src="/assets/images/Logo.webp" alt="" loading="eager"></a>
+        <a href="#inicio" class="logo" aria-label="IHD Solutions - Inicio"><img src="/assets/images/Logo.webp" alt="" loading="eager" fetchpriority="high"></a>
         <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-label="Abrir menú de navegación">
         <label for="nav-toggle" class="hamburger" aria-hidden="true">
             <span></span>
